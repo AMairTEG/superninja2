@@ -118,12 +118,13 @@ Wortel is an extensible framework. It lets you use annotations to make your own 
 ### Creating Aggregates
 
 Aggregates in Wortel need to extend the AbstractAggregate class and have an @Aggregate annotation to define their properties.  Here is the code for creating a Pet Aggregate:
-
+```java
 @Aggregate(name = "pet", eventClass = PetEvent.class)
 public class PetAggregate extends AbstractAggregate {
 }
+```
 
-The @Aggregate annotation is highly versatile and contains a number of different parameters.
+The `@Aggregate` annotation is highly versatile and contains a number of different parameters.
 
 `name` - aggregate name, used to provide sensible defaults to other parameters; consumer subscription name and event producer name are also derived from it;
 
