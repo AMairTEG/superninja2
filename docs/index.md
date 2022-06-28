@@ -1,3 +1,15 @@
+---
+layout: docs
+title: Get started with Bootstrap
+description: Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.
+group: getting-started
+aliases:
+  - "/docs/5.2/getting-started/"
+  - "/docs/getting-started/"
+  - "/getting-started/"
+toc: true
+---
+
 # foo
 
 Wortel is a framework that takes client requests as input and synchronously publishes events to both Pulsar and MongoDB.  This allows developers to implement Event Sourcing architectures using these technologies without worrying about synchronisation problems between the event store and event bus. If Event Sourcing is new to you and you want to understand what it’s useful for, Derek Comartin provides a very good introduction with examples.
